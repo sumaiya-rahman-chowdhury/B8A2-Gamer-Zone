@@ -1,0 +1,55 @@
+@media screen and (max-width:576px) {
+    .navbar{
+        flex-direction: column;
+    }
+    .navlinks{
+        flex-direction: column;
+    }
+    .navlinks-txt{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 20px;
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner-pic{
+      width: 100%;
+
+    }
+    .banner-pic img{
+       height: auto;
+    }
+    .banner-des-des{
+        width: 100%;
+    
+    }
+    .we-are-gamer{
+       flex-direction: column;
+       padding: 10px;
+    }
+    .we-are-gamer-img img{
+        width: 100%;
+    }
+    .we-are-gamer-des-p{
+        text-align: center;
+        }
+        .we-are-gamer-des-h2{
+          text-align: center;
+            }
+        .knw-btn{
+            display: flex;
+           margin:10px auto;
+        }
+        .we-are-gamer-des-p-p{
+            text-align: center;
+        }
+        .we-are-gamer-des-h5{
+           text-align: center;
+        }
+        .community{
+            flex-direction: column;
+        }
+
+}
