@@ -377,6 +377,7 @@ grid-template-columns: repeat(5,1fr);
 gap: 20px;
 padding:40px 100px ;
 grid-template-rows: 1fr auto;
+background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
 
 .action-btn{
@@ -387,7 +388,14 @@ grid-template-rows: 1fr auto;
 background: #FFF;
 padding: 5px;
 gap: 20px;
+background-color: rgba(255, 255, 255, 1);
+border: none;
 }
 /* .action-btn img{
     padding: 5px;
 } */
+.action-btn:hover{
+    border-radius: 50px;
+background: #FFF;
+border:1px solid #FF42A5;
+}
