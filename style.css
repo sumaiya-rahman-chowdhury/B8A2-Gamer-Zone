@@ -182,12 +182,10 @@ font-style: normal;
 font-weight: 400;
 }
 .knw-btn{
-    display: flex;
-padding: 21px 40px;
-justify-content: right;
-align-items: flex-end;
-gap: 10px;
-text-align: right;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
 }
 .we-are-gamer-des-p-p{
     color: #534C64;
@@ -205,6 +203,7 @@ text-align: right;
     font-style: normal;
     font-weight: 700;
     line-height: 45px; 
+    text-align: right;
 }
 .community{
     display: flex;
@@ -306,7 +305,9 @@ background-clip: text;
     padding: 30px;
     height: 100vh;
     width: 90%;
-    margin: auto;
+    margin:100px auto;
+    position: relative; 
+
 }
 .talking-tom{
     width: 218.5px;
@@ -315,4 +316,78 @@ flex-shrink: 0;
 }
 .play-content{
     margin-top: 100px;
+    /* border: 1px solid; */
+    width: 50%;
+    height: auto;
+    align-items: center;
 }
+.play-img-1{
+   position: relative; 
+
+}
+.talking-tom{
+    position: absolute;
+   top: 500px;
+   left: 500px;
+}
+.play-img{
+    display: flex;
+}
+.carrers{
+    display: flex;
+    background-color: #FF42A5;
+    max-width: 100%;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.careers-content{
+    width: 50%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.caeers-img{
+    width: 50%;
+}
+.caeers-img img{
+    width: 100%;
+}
+.careers-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.position{
+    display: inline-flex;
+padding: 21px 40px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 48px;
+background: #FFF;
+border: none;
+margin-top: 30px;
+color: #FF42A5;
+font-weight: 600;
+}
+.action{
+ display: grid;
+grid-template-columns: repeat(5,1fr);
+/* grid-template-rows: repeat(3, 1fr); */
+gap: 20px;
+padding:40px 100px ;
+grid-template-rows: 1fr auto;
+}
+
+.action-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+background: #FFF;
+padding: 5px;
+gap: 20px;
+}
+/* .action-btn img{
+    padding: 5px;
+} */

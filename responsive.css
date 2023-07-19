@@ -51,5 +51,49 @@
         .community{
             flex-direction: column;
         }
+        .play{
+           flex-direction: column;
+        
+        }
+        .play-img-1{
+            width: 100%;
+         
+         }
+         .talking-tom{
+           bottom: 0;
+        }
+        .play-img{
+          flex-direction: column;
+        }
+        .play-content{
+            margin-top:30px;
+            /* border: 1px solid; */
+            width: 50%;
+            height: auto;
+            align-items: center;
+            margin: auto;
+        }
+        .play-content-h2{
+            color: #0B0223;
+        font-family: Work Sans;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 60px;
+        text-align: center;
+        }
+        .carrers{
+            flex-direction: column;
+        }
+        .careers-content{
+            width: 100%;
+           padding: 20px;
+        }
+        .caeers-img{
+            width: 100%;
+        }
+        .position{
+            margin-bottom: 30px;
+        }
 
 }
