@@ -104,6 +104,10 @@
            padding:10px 20px ;
           
            }
+           .action-btn {
+           display: grid;
+           grid-template-columns: repeat(3,1fr);
+        }
            .footer-p {
             display: grid;
             grid-template-columns: repeat(3,1fr);
