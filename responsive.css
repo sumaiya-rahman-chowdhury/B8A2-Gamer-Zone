@@ -1,7 +1,7 @@
 @media screen and (max-width:576px) {
     body{
         border: 1px solid black;
-    }
+    } 
     .navbar {
         flex-direction: column;
         width: 100%;
