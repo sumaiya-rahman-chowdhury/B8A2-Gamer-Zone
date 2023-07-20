@@ -4,6 +4,9 @@
     font-family: 'Work Sans', sans-serif;
 
 }
+body{
+    overflow-x: hidden;
+}
 
 .btn {
     display: flex;
@@ -69,7 +72,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .banner-des-des {

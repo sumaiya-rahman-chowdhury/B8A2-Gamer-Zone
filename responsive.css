@@ -1,10 +1,15 @@
 @media screen and (max-width:576px) {
+    body{
+        border: 1px solid black;
+    }
     .navbar {
         flex-direction: column;
+        width: 100%;
     }
 
     .navlinks {
         flex-direction: column;
+        width: 100%;
     }
 
     .navlinks-txt {
@@ -31,7 +36,11 @@
     .banner-des-des {
         width: 100%;
         height: auto;
+        
 
+    }
+    .banner-des{
+        width: 100%;
     }
 
     .banner-h1 {
