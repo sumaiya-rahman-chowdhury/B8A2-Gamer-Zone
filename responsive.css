@@ -161,8 +161,12 @@
         padding: 10px;
 
     }
+    .action-btn img{
+        width: 33%;
+    }
 
     .action-btn {
+        font-size:10px;
         padding: 1px;
         gap: 1px;
     }
