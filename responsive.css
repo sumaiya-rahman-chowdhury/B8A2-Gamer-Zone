@@ -1,7 +1,7 @@
 @media screen and (max-width:576px) {
-    body{
+    /* body{
         border: 1px solid black;
-    } 
+    }  */
     .navbar {
         flex-direction: column;
         width: 100%;
@@ -148,9 +148,8 @@
 
     .careers-content {
         width: 100%;
-        /* padding: 20px; */
-        padding-left: 94px;
-        padding-right: 72px;
+        padding: 20px; 
+        
     }
 
     .caeers-img {
